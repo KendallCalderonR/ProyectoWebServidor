@@ -1,0 +1,701 @@
+body
+{
+	background-image: url(imagenes/blackbackground.jpg);
+	background-position: center 0%;
+	background-repeat: repeat-y;
+}
+
+#cabeza {
+	width: 960px;
+	height: 400px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#cuerpo {
+	height: 700px;
+	width: 960px;
+	margin-left: auto;
+	margin-right: auto;
+	top: 405px;
+}
+
+#menu1 {
+	height: 60px;
+	width: 960px;
+	top: 405px;
+	display: inline-block;
+	text-align: center;
+	text-decoration: none;
+	list-style-type: none;
+}
+#menu2 {
+	width: 240px;
+	height: 600px;
+	top: 465px;
+	float: left;
+	border-bottom-left-radius: 20px;
+	border-top-right-radius: 20px;
+}
+
+#articulos {
+	width: 690px;
+	height: 600px;
+	border: 2px solid #F7F7F7;
+	margin-left: 245px;
+	border-bottom-left-radius: 20px;
+	border-top-right-radius: 20px;
+	top: 460px;
+	padding-left: 10px;
+	padding-top: 10px;
+	padding-right: 10px;
+	padding-bottom: 10px;
+}
+
+#pie p {
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	color: #F3F5F3;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+
+
+
+#pie {
+	width: auto;
+	min-width: 0px;
+	height: 50px;
+	color: #F8F0F1;
+	border-color: hsla(0,0%,91%,0.00);
+	border-style: solid;
+	border-top-right-radius: 15px;
+	border-bottom-left-radius: 15px;
+	clear: both;
+	padding-top: 0px;
+	top: 1500px;
+}
+p  {
+	color: #FFFFFF;
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+}
+#menu1 ul {
+	color: #F3F3F3;
+	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, serif;
+	text-decoration: none;
+	display: inline-block;
+	list-style-type: none;
+	width: 960px;
+	height: 50px;
+	font-size: 30px;
+}
+#menu1 li {
+	display: inline-block;
+	color: #F7F3F3;
+	border-bottom-left-radius: 15px;
+	border-top-right-radius: 15px;
+	border: 1px solid #F0E7E8;
+	font-size: 40px;
+	padding-right: 10px;
+	margin-left: 25px;
+	margin-right: 25px;
+	padding-left: 10px;
+}
+li:hover {
+	background-color: #000000;
+	border: 3px solid #F7F5F5;
+	border-bottom-left-radius: 10px;
+	border-top-right-radius: 10px;
+	-webkit-box-shadow: 0px 0px #565656;
+	box-shadow: 0px 0px #565656;
+}
+
+a {
+	color: #F1EAEA;
+	list-style-type: none;
+	text-decoration: none;
+	font-size: 30px;
+	display: inline-block;
+	text-align: center;
+}
+#cuerpo #menu2 ul {
+	text-decoration: none;
+	text-align: center;
+	font-size: 10px;
+	list-style-type: none;
+	padding-left: auto;
+	padding-right: auto;
+}
+
+#cuerpo #menu2 li {
+	text-align: center;
+	padding-left: auto;
+	padding-right: 0px;
+	display: list-item;
+	text-decoration: none;
+	color: #F7F3F3;
+	border-bottom-left-radius: 15px;
+	border-top-right-radius: 15px;
+	border: 1px solid #F0E7E8;
+	font-size: 20px;
+	padding-right: auto;
+	list-style-type: none;
+	margin-bottom: 3px;
+}
+#cuerpo #ventas {
+	width: 690px;
+	height: 700px;
+	border-bottom-left-radius: 20px;
+	border-top-right-radius: 20px;
+	top: 460px;
+	padding-left: auto;
+	padding-top: auto;
+	padding-right: auto;
+	padding-bottom: auto;
+	margin-left: 245px;
+}
+
+#cuerpo #ventas .articulo  {
+	border: 1px solid hsla(0,0%,97%,1.00);
+	border-radius: 10px;
+	width: 200px;
+	height: 325px;
+	padding-left: auto;
+	padding-right: auto;
+	color: hsla(0,0%,96%,1.00);
+	font-size: 10px;
+	text-align: center;
+	display: inline-block;
+	padding-bottom: 2px;
+	padding-top: 2px;
+	margin-left: 5px;
+	margin-bottom: 5px;
+}
+#cuerpo #ventas img  {
+	width: 150px;
+	height: 150px;
+	border: 2px solid hsla(0,0%,0%,1.00);
+	border-radius: 10px;
+	padding-left: auto;
+	padding-right: auto;
+	color: hsla(0,0%,96%,1.00);
+	font-size: 10px;
+	text-align: center;
+	display: inline-block;
+	padding-bottom: auto;
+	padding-top: auto;
+}
+
+#ventas  p {
+	text-align: center;
+	color: hsla(0,0%,99%,1.00);
+	font-size: 15px;
+	padding-right: auto;
+	padding-left: auto;
+	padding-bottom: auto;
+	padding-top: auto;
+}
+
+input {
+	text-align: center;
+	color: hsla(0,0%,100%,1.00);
+	padding-top: 0px;
+	padding-bottom: 0px;
+}
+#imagen {
+	width: auto;
+	height: auto;
+	padding-left: auto;
+	padding-right: auto;
+	color: hsla(0,0%,100%,1.00);
+	text-align: center;
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-top: 0px;
+	padding-bottom: 0px;
+	margin-bottom: 0px;
+}
+#comprar {
+	width: 100px;
+	height: 100px;
+	float: right;
+}
+#imagen img {
+	border-radius: 20px;
+	border: 2px solid hsla(0,0%,0%,1.00);
+}
+#cuerpo_vehiculos {
+	margin-left: auto;
+	margin-right: auto;
+	top: 405px;
+}
+#menu1_vehi {
+	top: 405px;
+	display: inline-block;
+	text-align: center;
+	text-decoration: none;
+	list-style-type: none;
+	padding-right: auto;
+	padding-left: auto;
+}
+
+#ventas_vehi {
+	width: 690px;
+	height: 700px;
+	border-bottom-left-radius: 20px;
+	border-top-right-radius: 20px;
+	top: 460px;
+	padding-left: auto;
+	padding-top: auto;
+	padding-right: auto;
+	padding-bottom: auto;
+	margin-left: 245px;
+}
+
+
+
+
+#menu2_vehi {
+	width: 240px;
+	height: 2000px;
+	top: 500px;
+	float: left;
+	border-bottom-left-radius: 20px;
+	border-top-right-radius: 20px;
+}
+#menu2_vehi ul {
+	text-decoration: none;
+	text-align: center;
+	font-size: 10px;
+	list-style-type: none;
+	padding-left: auto;
+	padding-right: auto;
+}
+
+#menu1_vehi ul {
+	color: #F3F3F3;
+	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, serif;
+	text-decoration: none;
+	display: inline-block;
+	list-style-type: none;
+	width: 960px;
+	height: 50px;
+	font-size: 30px;
+}
+#menu1_vehi li {
+	display: inline-block;
+	color: #F7F3F3;
+	border-bottom-left-radius: 15px;
+	border-top-right-radius: 15px;
+	border: 1px solid #F0E7E8;
+	font-size: 40px;
+	padding-right: 10px;
+	margin-left: 25px;
+	margin-right: 25px;
+	padding-left: 10px;
+	margin-top: 0px;
+	padding-top: px;
+}
+
+
+#cuerpo_vehiculos #menu2_vehi ul {
+	text-decoration: none;
+	text-align: center;
+	font-size: 10px;
+	list-style-type: none;
+	padding-left: auto;
+	padding-right: auto;
+}
+
+#cuerpo_vehiculos #menu2_vehi li {
+	text-align: center;
+	padding-left: auto;
+	padding-right: 0px;
+	display: list-item;
+	text-decoration: none;
+	color: #F7F3F3;
+	border-bottom-left-radius: 15px;
+	border-top-right-radius: 15px;
+	border: 1px solid #F0E7E8;
+	font-size: 20px;
+	padding-right: auto;
+	list-style-type: none;
+	margin-bottom: 3px;
+	width: 200px;
+	margin-left: 20px;
+	margin-top: 10px;
+}
+
+#cuerpo_vehiculos #ventas_vehi {
+	border-bottom-left-radius: 20px;
+	border-top-right-radius: 20px;
+	top: 460px;
+	padding-left: auto;
+	padding-right: auto;
+	margin-left: 150px;
+	margin-right: auto;
+	width: 1300px;
+	height: 2000px;
+}
+
+#cuerpo_vehiculos #ventas_vehi .articulo  {
+	border: 1px solid hsla(0,0%,97%,1.00);
+	border-radius: 10px;
+	width: 200px;
+	height: 375px;
+	padding-left: 0px;
+	padding-right: auto;
+	color: hsla(0,0%,96%,1.00);
+	font-size: 10px;
+	text-align: center;
+	display: inline-block;
+	padding-bottom: 2px;
+	padding-top: 2px;
+	margin-bottom: 5px;
+	margin-left: 3px;
+}
+#cuerpo_vehiculos #ventas_vehi img  {
+	width: 150px;
+	height: 150px;
+	border: 2px solid hsla(0,0%,0%,1.00);
+	border-radius: 10px;
+	padding-left: auto;
+	padding-right: auto;
+	color: hsla(0,0%,96%,1.00);
+	font-size: 10px;
+	text-align: center;
+	display: inline-block;
+	padding-bottom: auto;
+	padding-top: auto;
+}
+
+#ventas_vehi  p {
+	text-align: center;
+	color: hsla(0,0%,99%,1.00);
+	font-size: 15px;
+	padding-right: auto;
+	padding-left: auto;
+	padding-bottom: auto;
+	padding-top: auto;
+}
+#marcas {
+	width: 600px;
+	height: 600px;
+	margin-left: 500px;
+	top: 600px;
+}
+#marcas .articulo {
+	border: 1px solid hsla(0,0%,97%,1.00);
+	border-radius: 10px;
+	width: 200px;
+	height: 325px;
+	padding-left: auto;
+	padding-right: auto;
+	color: hsla(0,0%,96%,1.00);
+	font-size: 10px;
+	text-align: center;
+	display: inline-block;
+	padding-bottom: 2px;
+	padding-top: 2px;
+	margin-left: 5px;
+	margin-bottom: 5px;
+}
+#marcas  p {
+	text-align: center;
+	color: hsla(0,0%,99%,1.00);
+	font-size: 15px;
+	padding-right: auto;
+	padding-left: auto;
+	padding-bottom: auto;
+	padding-top: auto;
+}
+#marcas img  {
+	width: 150px;
+	height: 150px;
+	border: 2px solid hsla(0,0%,0%,1.00);
+	border-radius: 10px;
+	padding-left: auto;
+	padding-right: auto;
+	color: hsla(0,0%,96%,1.00);
+	font-size: 10px;
+	text-align: center;
+	display: inline-block;
+	padding-bottom: auto;
+	padding-top: auto;
+}
+
+#menu2_sel {
+	width: 240px;
+	height: 2000px;
+	top: 500px;
+	float: left;
+	border-bottom-left-radius: 20px;
+	border-top-right-radius: 20px;
+	}
+#menu2_sel ul {
+	text-decoration: none;
+	text-align: center;
+	font-size: 10px;
+	list-style-type: none;
+	padding-left: auto;
+	padding-right: auto;
+}
+
+#menu2_sel li {
+	text-align: center;
+	padding-left: auto;
+	padding-right: 0px;
+	display: list-item;
+	text-decoration: none;
+	color: #F7F3F3;
+	border-bottom-left-radius: 15px;
+	border-top-right-radius: 15px;
+	border: 1px solid #F0E7E8;
+	font-size: 20px;
+	padding-right: auto;
+	list-style-type: none;
+	margin-bottom: 3px;
+	margin-left: 20px;
+	margin-top: 10px;
+	width: 200px;
+}
+
+#menu1_sel ul {
+	color: #F3F3F3;
+	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, serif;
+	text-decoration: none;
+	display: inline-block;
+	list-style-type: none;
+	height: 50px;
+	font-size: 30px;
+	margin-left: 400px;
+	padding-left: auto;
+	padding-right: auto;
+	width: auto;
+}
+#menu1_sel li {
+	display: inline-block;
+	color: #F7F3F3;
+	border-bottom-left-radius: 15px;
+	border-top-right-radius: 15px;
+	border: 1px solid #F0E7E8;
+	font-size: 40px;
+	padding-right: 10px;
+	margin-left: 25px;
+	margin-right: 25px;
+	padding-left: 10px;
+	margin-top: 0px;
+	padding-top: px;
+}
+#imagen p {
+	width: 1002px;
+	text-align: center;
+	padding-right: auto;
+	padding-left: auto;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#menu_info {
+	top: 405px;
+	display: inline-block;
+	text-align: center;
+	text-decoration: none;
+	list-style-type: none;
+	width: auto;
+	}
+	
+#menu1_info ul {
+	color: #F3F3F3;
+	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, serif;
+	text-decoration: none;
+	display: inline-block;
+	list-style-type: none;
+	font-size: 30px;
+}
+#menu1_info li {
+	display: inline-block;
+	color: #F7F3F3;
+	border-bottom-left-radius: 15px;
+	border-top-right-radius: 15px;
+	border: 1px solid #F0E7E8;
+	font-size: 40px;
+	padding-left: 10px;
+	padding-right: 10px;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+#menu1_carrito {
+	top: 405px;
+	display: inline-block;
+	text-align: center;
+	text-decoration: none;
+	list-style-type: none;
+	width: auto;
+	}
+	
+#menu1_carrito ul {
+	color: #F3F3F3;
+	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, serif;
+	text-decoration: none;
+	display: inline-block;
+	list-style-type: none;
+	font-size: 30px;
+}
+#menu1_carrito li {
+	display: inline-block;
+	color: #F7F3F3;
+	border-bottom-left-radius: 15px;
+	border-top-right-radius: 15px;
+	border: 1px solid #F0E7E8;
+	font-size: 40px;
+	padding-left: 10px;
+	padding-right: 10px;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+
+
+
+#carrito {
+	border-radius: 20px;
+	border: 1px solid hsla(0,0%,98%,1.00);
+	text-align: center;
+	width: 1000px;
+	height: 800px;
+	padding-left: 10px;
+	padding-right: 10px;
+	margin-right: auto;
+	margin-left: auto;
+}
+#carrito center .aceptar {
+	text-align: center;
+	color: hsla(0,0%,100%,1.00);
+	font-size: 30px;
+	border-radius: 10px;
+	background-color: hsla(0,0%,0%,1.00);
+	text-decoration: none;
+}
+#carrito center a {
+	text-align: center;
+	color: hsla(0,0%,100%,1.00);
+	font-size: 30px;
+	border-radius: 10px;
+	text-decoration: none;
+	background-color: hsla(0,0%,0%,1.00);
+}
+#carrito h2 {
+	font-size: 30px;
+	color: hsla(0,0%,100%,1.00);
+}
+#carrito .producto {
+	width: 210px;
+	border-radius: 15px;
+	height: 350px;
+	border: 2px solid hsla(0,0%,98%,1.00);
+	display: inline-block;
+	padding-top: 25px;
+	padding-left: 2px;
+	padding-right: 2px;
+	margin-top: 30px;
+	margin-right: 10px;
+	margin-left: 10px;
+	color: hsla(0,0%,100%,1.00);
+}
+#carrito .producto img {
+	width: 150px;
+	height: 150px;
+}
+#carrito .producto input {
+	width: 20px;
+	height: 20px;
+	color: hsla(0,0%,99%,1.00);
+	text-align: center;
+	background-color: hsla(0,0%,0%,1.00);
+}
+#personas center form {
+	width: 400px;
+	height: 400px;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 10px;
+}
+center form table {
+	text-align: center;
+	color: hsla(0,0%,100%,1.00);
+	border: 1px solid hsla(0,0%,96%,1.00);
+	width: 400px;
+	height: 300px;
+}
+tr td input {
+	background-color: hsla(0,0%,0%,1.00);
+	color: hsla(0,0%,95%,1.00);
+	border-radius: 5px;
+	text-align: center;
+	border: 1px solid hsla(0,0%,100%,1.00);
+}
+#menu1_per {
+	top: 405px;
+	display: inline-block;
+	text-align: center;
+	text-decoration: none;
+	list-style-type: none;
+	margin-left: auto;
+	margin-right: auto;
+	}
+	
+#menu1_per ul {
+	color: #F3F3F3;
+	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, serif;
+	text-decoration: none;
+	display: inline-block;
+	list-style-type: none;
+	font-size: 30px;
+	margin-left: auto;
+	margin-right: auto;
+}
+#menu1_per li {
+	display: inline-block;
+	color: #F7F3F3;
+	border-bottom-left-radius: 15px;
+	border-top-right-radius: 15px;
+	border: 1px solid #F0E7E8;
+	font-size: 40px;
+	padding-left: 10px;
+	padding-right: 10px;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+#cuerpo #DB {
+	width: 400px;
+	height: 200px;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 50px;
+	top: auto;
+	bottom: auto;
+}
+#cuerpo #DB p {
+	text-align: center;
+	font-size: xx-large;
+}
+#inicio {
+	border-radius: 10px;
+	width: 1000px;
+	height: 580px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	color: hsla(0,0%,100%,1.00);
+	padding-top: 10px;
+}
+#inicio img {
+	border-radius: 10px;
+	border: 1px solid hsla(0,0%,0%,1.00);
+}
+body p {
+}
